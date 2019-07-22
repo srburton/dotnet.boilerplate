@@ -1,4 +1,4 @@
-### Boilerplate .NET CORE >= 2.2  (PREVIEW 1.0.1)
+### Boilerplate .NET CORE
 
 This project is for programmers who want agility in building their API REST, 80% of the time we spend doing integrations and project structure, why not a boilerprate ready to use with implementations made, and with the time that you save you go to drink a beer or study another language or framework?
 
@@ -11,6 +11,13 @@ This project is for programmers who want agility in building their API REST, 80%
 [![License: MIT](https://img.shields.io/github/languages/code-size/srburton/dotnet.boilerplate.svg)]()
 [![License: MIT](https://img.shields.io/github/issues-raw/srburton/dotnet.boilerplate.svg)]()
 [![License: MIT](	https://img.shields.io/github/issues-closed/srburton/dotnet.boilerplate.svg)]()
+
+
+##### dotnet --version
+ - 2.1
+ - 2.2
+ - 3.0 (preview)
+ 
 
 ##### Implementation
 - Sendgrid
