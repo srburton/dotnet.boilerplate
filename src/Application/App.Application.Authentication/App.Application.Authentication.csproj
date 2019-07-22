@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\App.Domain\App.Domain.csproj" />
+    <ProjectReference Include="..\..\Infra\Data\App.Infra.Data\App.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\Infra\Integration\App.Infra.Integration.Aws\App.Infra.Integration.Aws.csproj" />
+    <ProjectReference Include="..\..\Infra\Integration\App.Infra.Integration.RabbitMq\App.Infra.Integration.RabbitMq.csproj" />
+    <ProjectReference Include="..\..\Infra\Integration\App.Infra.Integration.Redis\App.Infra.Integration.Redis.csproj" />
+    <ProjectReference Include="..\..\Infra\Integration\App.Infra.Integration.SendGrid\App.Infra.Integration.SendGrid.csproj" />
+    <ProjectReference Include="..\..\Infra\Integration\App.Infra.Integration.Twilio\App.Infra.Integration.Twilio.csproj" />
+  </ItemGroup>
+
+</Project>

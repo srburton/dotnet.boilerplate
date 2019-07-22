@@ -1,1 +1,1 @@
-# dotnet.boilerplate
+dotnet-boilerplate
