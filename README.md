@@ -2,7 +2,7 @@
 
 This project is for programmers who want agility in building their API REST, 80% of the time we spend doing integrations and project structure, why not a boilerprate ready to use with implementations made, and with the time that you save you go to drink a beer or study another language or framework?
 
-#####Implementation
+##### Implementation
 - Sendgrid
 - RabbitMq 
 - Redis
@@ -10,16 +10,9 @@ This project is for programmers who want agility in building their API REST, 80%
 - Sentry
 - Aws (s3) 
 - Docker
-- Datadog ***(future)* **
-- Gateway Payment ***(future)* **
- -Mercado Pago
- -Pagseguro
- -Paypal
- -Pagar.me
-- C.I ***(future)* **
- - Bitbuckt
- - CodePipeline (aws)
- - Abstruse (open source)
+- Datadog ***(future)***
+- Gateway Payment ***(future)***
+- C.I ***(future)***
 
 ##### Architecture Features
 - API (default)
