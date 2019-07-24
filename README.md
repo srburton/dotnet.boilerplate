@@ -24,8 +24,7 @@ Wiki: https://srburton.github.io/dotnet.boilerplate/
 ##### dotnet --version
  - 2.1
  - 2.2
- - 3.0 (preview)
- 
+ - 3.0 (preview) 
 
 ##### Implementation
 - Sendgrid
