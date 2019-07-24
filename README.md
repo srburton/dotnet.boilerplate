@@ -38,7 +38,7 @@ This project is for programmers who want agility in building their API REST, 80%
 ##### Architecture Features
 - API (default)
 - DDD (Domain Driven Design)
-- D.I (Dependency injection) with attributes.
+- IOC (Inversion of control).
 
 
 
@@ -46,7 +46,7 @@ This project is for programmers who want agility in building their API REST, 80%
 
 [![License: MIT](https://i.ibb.co/vwLp4X4/Untitled-Diagram-1.png)]()
 
-#### D.I (Dependency injection)
+#### IOC (Inversion of control)
 
 ###### Container register 
 
