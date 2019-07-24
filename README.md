@@ -44,7 +44,7 @@ This project is for programmers who want agility in building their API REST, 80%
 
 #### Modeling approach
 
-[![License: MIT](https://i.ibb.co/1dvH7dj/Untitled-Diagram.png)]()
+[![License: MIT](https://i.ibb.co/vwLp4X4/Untitled-Diagram-1.png)]()
 
 #### D.I (Dependency injection)
 
