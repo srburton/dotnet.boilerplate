@@ -16,9 +16,13 @@ This project is for programmers who want agility in building their API REST, 80%
 [![License: MIT](https://img.shields.io/github/issues-raw/srburton/dotnet.boilerplate.svg)]()
 [![License: MIT](	https://img.shields.io/github/issues-closed/srburton/dotnet.boilerplate.svg)]()
 
-##### Future migration from integrations to nuget packages
- Project: dotnet.boilerplate.packs
 
+
+##### Future migration from integrations to nuget packages
+
+> Project: 
+  dotnet.boilerplate.packs
+    
 ##### dotnet --version
  - 2.1
  - 2.2
