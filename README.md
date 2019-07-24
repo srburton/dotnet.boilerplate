@@ -39,3 +39,54 @@ This project is for programmers who want agility in building their API REST, 80%
 - API (default)
 - DDD (Domain Driven Design)
 - D.I (Dependency injection) with attributes.
+
+
+#### D.I (Dependency injection)
+
+###### Container register 
+
+```cSharp
+
+//IService alias (trasient)
+public class Example1 : IService<Example1> { }
+
+//IApplication alias (trasient)
+public class Example2 : IApplication<Example2> { }
+
+//IRepository alias (trasient)
+public class Example3 : IRepository<Example3> { }
+
+public class Example4 : IScoped<Example4> { }
+
+public class Example5 : ISingleton<Example5> { }
+
+public class Example6 : ITransient<Example6> { }
+
+[Scoped]
+public class Example7 { }
+
+[Singleton]
+public class Example8 { }
+
+[Transient]
+public class Example9 { }
+
+```
+
+###### Injection 
+
+```cSharp
+
+public class Example10
+{
+    readonly Example1 _example1;
+
+    public Example10(IService<Example1> example1)
+    {
+        _example1 = (Example1)example1;
+    }
+}
+
+```
+
+
