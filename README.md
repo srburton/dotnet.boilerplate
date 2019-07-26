@@ -10,8 +10,6 @@ This project is for programmers who want agility in building their API REST, 80%
 [![Relase](https://img.shields.io/github/release/srburton/dotnet.boilerplate.svg)]()
 [![tag](https://img.shields.io/github/tag-date/srburton/dotnet.boilerplate.svg)]()
 [![language](https://img.shields.io/github/languages/count/srburton/dotnet.boilerplate.svg)]()
-[![last commit](https://img.shields.io/github/last-commit/srburton/dotnet.boilerplate.svg)]()
-[![code size](https://img.shields.io/github/languages/code-size/srburton/dotnet.boilerplate.svg)]()
 [![issues raw](https://img.shields.io/github/issues-raw/srburton/dotnet.boilerplate.svg)]()
 [![issues closed](	https://img.shields.io/github/issues-closed/srburton/dotnet.boilerplate.svg)]()
 
