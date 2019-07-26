@@ -35,6 +35,11 @@ https://github.com/srburton/dotnet.boilerplate/wiki
  - 2.2
  - 3.0 (preview) 
 
+##### Architecture Features
+- API (default)
+- DDD (Domain Driven Design)
+- IOC (Inversion of control)
+
 ##### Integrations
 - Sendgrid
 - RabbitMq 
@@ -46,8 +51,3 @@ https://github.com/srburton/dotnet.boilerplate/wiki
 - Datadog ***(future)***
 - Gateway Payment ***(future)***
 - C.I ***(future)***
-
-##### Architecture Features
-- API (default)
-- DDD (Domain Driven Design)
-- IOC (Inversion of control).
