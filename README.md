@@ -3,7 +3,8 @@
 
 ### DotNet Boilerplate 
 
-This project is for programmers who want agility in building their API REST, 80% of the time we spend doing integrations and project structure, why not a boilerprate ready to use with implementations made, and with the time that you save you go to drink a beer or study another language or framework?
+This project is being developed to bring together the best technology and methodology in the construction of microservices.
+the best projects and companies will be here, candidates who do not fit the community-defined models should build their own implementations with this project.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build: passing](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
