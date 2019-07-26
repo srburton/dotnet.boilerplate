@@ -13,6 +13,7 @@ This project is for programmers who want agility in building their API REST, 80%
 [![issues closed](	https://img.shields.io/github/issues-closed/srburton/dotnet.boilerplate.svg)]()
 
 <hr>
+
 ### News
 
 ##### Future migration from integrations to nuget packages
@@ -20,11 +21,13 @@ This project is for programmers who want agility in building their API REST, 80%
 dotnet.boilerplate.packs
 
 <hr>
+
 ### Wiki
 
 https://github.com/srburton/dotnet.boilerplate/wiki
 
 <hr>
+
 ### Preview
 
 ##### dotnet --version
