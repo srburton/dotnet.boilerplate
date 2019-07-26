@@ -26,7 +26,7 @@ Wiki: https://srburton.github.io/dotnet.boilerplate/
  - 2.2
  - 3.0 (preview) 
 
-##### Implementation
+##### Integrations
 - Sendgrid
 - RabbitMq 
 - Redis
