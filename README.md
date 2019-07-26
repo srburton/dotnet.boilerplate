@@ -16,11 +16,15 @@ Wiki: https://srburton.github.io/dotnet.boilerplate/
 [![License: MIT](	https://img.shields.io/github/issues-closed/srburton/dotnet.boilerplate.svg)]()
 
 
+### News
 ##### Future migration from integrations to nuget packages
 
-> Project: 
-  dotnet.boilerplate.packs
-    
+dotnet.boilerplate.packs
+
+<hr>
+
+### Preview
+
 ##### dotnet --version
  - 2.1
  - 2.2
