@@ -2,9 +2,18 @@
 [![License:DOTNET.BOILERPLATE](https://i.ibb.co/vLLxXWg/layers.png)]() 
 
 ### DotNet Boilerplate 
+This project is based on bringing together the best technology and methodology in the construction of the dotnet core system, always aiming for greater reliability for projects with short deadlines and quality is essential, along with low development costs.
 
-This project is being developed to bring together the best technology and methodology in the construction of microservices.
-the best projects and companies will be here, candidates who do not fit the community-defined models should build their own implementations with this project.
+###### Commercial Features
+* Low cost
+* Quality
+* Short deadlines
+
+###### Project Features
+* Reliability
+* Performance
+* Safety
+* Scalability
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build: passing](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
@@ -17,7 +26,7 @@ the best projects and companies will be here, candidates who do not fit the comm
 
 ### News
 
-##### Future migration from integrations to nuget packages
+###### Future migration from integrations to nuget packages
 
 dotnet.boilerplate.packs
 
@@ -40,6 +49,7 @@ https://github.com/srburton/dotnet.boilerplate/wiki
 - API (default)
 - DDD (Domain Driven Design)
 - IOC (Inversion of control)
+- TDD (Test Driven Development) ***(future)***
 
 ##### Integrations
 - Sendgrid
@@ -51,4 +61,5 @@ https://github.com/srburton/dotnet.boilerplate/wiki
 - Docker
 - Datadog ***(future)***
 - Gateway Payment ***(future)***
-- C.I ***(future)***
+- C.I (Continuous integration) ***(future)***
+
