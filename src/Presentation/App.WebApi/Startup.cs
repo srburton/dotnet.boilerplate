@@ -1,9 +1,9 @@
 ﻿using SimpleInjector;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using App.Infra.Bootstrap.Extensions;
+using App.Bootstrap.Extensions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

@@ -13,7 +13,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Application\App.Application.Authentication\App.Application.Authentication.csproj" />
     <ProjectReference Include="..\..\Domain\App.Domain\App.Domain.csproj" />
-    <ProjectReference Include="..\..\Infra\Bootstrap\App.Infra.Bootstrap\App.Infra.Bootstrap.csproj" />
     <ProjectReference Include="..\..\Infra\CrossCutting\App.Infra.CrossCutting\App.Infra.CrossCutting.csproj" />
   </ItemGroup>
 

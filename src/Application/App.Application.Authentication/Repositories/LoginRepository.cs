@@ -1,5 +1,5 @@
 ﻿using App.Domain.Entities;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 using App.Infra.Data;
 using System.Linq;
 

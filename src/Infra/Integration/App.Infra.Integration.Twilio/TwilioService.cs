@@ -2,11 +2,11 @@
 using Twilio;
 using System.Linq;
 using Twilio.Types;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 using App.Domain.Interfaces;
 using System.Collections.Generic;
 using Twilio.Rest.Api.V2010.Account;
-using App.Infra.Bootstrap.Attributes;
+using App.Bootstrap.Attributes;
 using Microsoft.Extensions.Configuration;
 using App.Infra.Integration.Twilio.Models;
 using App.Infra.Integration.Twilio.Exceptions;

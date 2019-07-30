@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace App.Infra.Bootstrap.Attributes
+namespace App.Bootstrap.Attributes
 {
     public class TransientAttribute: Attribute
     {

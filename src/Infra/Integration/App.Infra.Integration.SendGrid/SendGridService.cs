@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
 using App.Infra.Integration.SendGrid.Models;
 using App.Infra.Integration.SendGrid.Attributes;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 
 namespace App.Infra.Integration.SendGrid
 {

@@ -1,4 +1,4 @@
-﻿namespace App.Infra.Bootstrap
+﻿namespace App.Bootstrap
 {
     public interface IRepository<T>
     {
