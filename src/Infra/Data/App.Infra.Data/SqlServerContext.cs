@@ -1,4 +1,4 @@
-﻿using App.Infra.Bootstrap;
+﻿using App.Bootstrap;
 using Microsoft.EntityFrameworkCore;
 
 namespace App.Infra.Data

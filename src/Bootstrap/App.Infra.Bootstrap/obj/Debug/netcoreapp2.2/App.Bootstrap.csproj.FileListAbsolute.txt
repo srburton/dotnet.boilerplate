@@ -1,0 +1,9 @@
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\bin\Debug\netcoreapp2.2\App.Bootstrap.deps.json
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\bin\Debug\netcoreapp2.2\App.Bootstrap.dll
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\bin\Debug\netcoreapp2.2\App.Bootstrap.pdb
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\obj\Debug\netcoreapp2.2\App.Bootstrap.csprojAssemblyReference.cache
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\obj\Debug\netcoreapp2.2\App.Bootstrap.csproj.CoreCompileInputs.cache
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\obj\Debug\netcoreapp2.2\App.Bootstrap.AssemblyInfoInputs.cache
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\obj\Debug\netcoreapp2.2\App.Bootstrap.AssemblyInfo.cs
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\obj\Debug\netcoreapp2.2\App.Bootstrap.dll
+C:\Users\beblue\Documents\Projects\dotnet.boilerplate\src\Bootstrap\App.Infra.Bootstrap\obj\Debug\netcoreapp2.2\App.Bootstrap.pdb

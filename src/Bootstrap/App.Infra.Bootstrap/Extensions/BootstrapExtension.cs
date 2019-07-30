@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using System;
 
-namespace App.Infra.Bootstrap.Extensions
+namespace App.Bootstrap.Extensions
 {
     public static class BootstrapExtension
     {

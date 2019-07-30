@@ -3,7 +3,7 @@ using SimpleInjector.Lifestyles;
 using System;
 using System.Linq;
 
-namespace App.Infra.Bootstrap
+namespace App.Bootstrap
 {
     public class Ioc
     {

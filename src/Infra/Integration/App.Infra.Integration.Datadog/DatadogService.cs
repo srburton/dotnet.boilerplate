@@ -1,5 +1,5 @@
 ﻿using App.Domain.Interfaces;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 
 namespace App.Infra.Integration.Datadog
 {

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Text;
 using RabbitMQ.Client;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 using App.Domain.Interfaces;
 using RabbitMQ.Client.Events;
 using App.Infra.Integration.RabbitMq.Core;
-using App.Infra.Bootstrap.Attributes;
+using App.Bootstrap.Attributes;
 using App.Infra.Integration.RabbitMq.Attributes;
 using App.Infra.Integration.RabbitMq.Extensions;
 

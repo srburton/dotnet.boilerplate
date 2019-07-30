@@ -1,4 +1,4 @@
-﻿using App.Infra.Bootstrap;
+﻿using App.Bootstrap;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 

@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Hosting;
 using System.Reflection;
 using System.Collections.Generic;
-using App.Infra.Bootstrap.Attributes;
+using App.Bootstrap.Attributes;
 
-namespace App.Infra.Bootstrap
+namespace App.Bootstrap
 {
     public static class AutoDependencyInjection
     {

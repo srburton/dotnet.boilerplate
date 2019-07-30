@@ -1,9 +1,9 @@
 ﻿using System;
 using Newtonsoft.Json;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 using StackExchange.Redis;
 using App.Domain.Interfaces;
-using App.Infra.Bootstrap.Attributes;
+using App.Bootstrap.Attributes;
 using App.Infra.Integration.Redis.Models;
 using Microsoft.Extensions.Configuration;
 using App.Infra.Integration.Redis.Extensions;

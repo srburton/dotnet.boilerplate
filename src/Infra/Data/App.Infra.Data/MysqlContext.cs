@@ -1,6 +1,6 @@
 ﻿using App.Domain.Entities;
 using App.Domain.Interfaces;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 

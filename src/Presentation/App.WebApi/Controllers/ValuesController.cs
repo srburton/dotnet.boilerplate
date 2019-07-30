@@ -1,4 +1,4 @@
-﻿using App.Infra.Bootstrap;
+﻿using App.Bootstrap;
 using Microsoft.AspNetCore.Mvc;
 using App.Application.Authentication;
 using System.Threading.Tasks;

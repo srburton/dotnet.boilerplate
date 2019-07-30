@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using App.Application.Authentication.Uploads;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 using App.Infra.Integration.Aws;
 using Microsoft.AspNetCore.Http;
 

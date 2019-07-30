@@ -3,10 +3,10 @@ using SharpRaven;
 using SharpRaven.Data;
 using App.Domain.Interfaces;
 using Microsoft.AspNetCore.Hosting;
-using App.Infra.Bootstrap.Attributes;
+using App.Bootstrap.Attributes;
 using Microsoft.Extensions.Configuration;
 using App.Infra.Integration.Sentry.Models;
-using App.Infra.Bootstrap;
+using App.Bootstrap;
 
 namespace App.Infra.Integration.Sentry
 {
