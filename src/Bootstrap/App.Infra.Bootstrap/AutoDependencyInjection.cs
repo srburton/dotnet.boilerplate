@@ -24,7 +24,7 @@ namespace App.Bootstrap
             container.Register(typeof(ISingleton<>), assemblies, Lifestyle.Singleton);
             
             container.Register(typeof(IApplication<>), assemblies, Lifestyle.Transient);
-            container.Register(typeof(IRepository<>), assemblies, Lifestyle.Transient);
+            container.Register(typeof(IRepository<>), assemblies, Lifestyle.Singleton);
 
             //AutoResolver 
             container.ResolveUnregisteredType += UnregisteredType;
@@ -46,8 +46,7 @@ namespace App.Bootstrap
                             .GetGenericTypeDefinition();
 
                 if (type == typeof(IService<>) ||
-                    type == typeof(IApplication<>) ||
-                    type == typeof(IRepository<>))
+                    type == typeof(IApplication<>))
                 {                    
                     if (type.GetCustomAttribute<SingletonAttribute>() != null)
                         e.Register(Lifestyle.Singleton.CreateRegistration(e.UnregisteredServiceType.GenericTypeArguments[0], container));
@@ -56,6 +55,8 @@ namespace App.Bootstrap
                     else
                         e.Register(Lifestyle.Transient.CreateRegistration(e.UnregisteredServiceType.GenericTypeArguments[0], container));
                 }
+                else if (type == typeof(IRepository<>))
+                    e.Register(Lifestyle.Singleton.CreateRegistration(e.UnregisteredServiceType.GenericTypeArguments[0], container));
                 else if (type == typeof(ITransient<>))
                     e.Register(Lifestyle.Transient.CreateRegistration(e.UnregisteredServiceType.GenericTypeArguments[0], container));
                 else if (type == typeof(ISingleton<>))

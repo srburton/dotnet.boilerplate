@@ -1,23 +1,18 @@
-﻿using App.Domain.Entities;
-using App.Bootstrap;
+﻿using App.Bootstrap;
+using App.Domain.Entities;
 using App.Infra.Data;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 
 namespace App.Application.Authentication.Repositories
 {
-    public class LoginRepository
+    public class LoginRepository: MysqlProxy, IRepository<LoginRepository>
     {
-        readonly MysqlContext _context;
-
-        public LoginRepository(ISingleton<MysqlContext> context)
-        {
-            _context = (MysqlContext)context;           
-        }
+        protected DbSet<User> _user { get; set; }
 
         public User Find()
         {
-            return _context.Set<User>()
-                           .FirstOrDefault(x => x.Id > 0);
+            return _user.FirstOrDefault(x => x.Email.Equals("roberto@teste.com"));
         }
     }
 }

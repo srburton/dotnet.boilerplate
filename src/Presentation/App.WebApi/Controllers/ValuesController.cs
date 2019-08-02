@@ -18,8 +18,8 @@ namespace App.WebApi.Controllers
         }
 
         public IActionResult Get()
-        {            
-            return Ok();
+        {
+            return Ok(_login.Profile());
         }
 
         [HttpPost]
