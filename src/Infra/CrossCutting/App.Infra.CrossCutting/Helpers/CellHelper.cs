@@ -2,7 +2,7 @@
 
 namespace App.Infra.CrossCutting.Helpers
 {
-    public class CellHelper: IHelper<CellHelper>
+    public static class CellHelper
     {
 
     }

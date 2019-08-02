@@ -2,7 +2,7 @@
 
 namespace App.Infra.CrossCutting.Helpers
 {
-    public class DateHelper: IHelper<DateHelper>
+    public static class DateHelper
     {
     }
 }

@@ -2,7 +2,7 @@
 
 namespace App.Infra.CrossCutting.Helpers
 {
-    public class CnpjHelper: IHelper<CnpjHelper>
+    public static class CnpjHelper
     {
         public static bool IsValid(string cnpj)
         {

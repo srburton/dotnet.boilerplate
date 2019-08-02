@@ -2,7 +2,7 @@
 
 namespace App.Infra.CrossCutting.Helpers
 {
-    public class CpfHelper: IHelper<CpfHelper>
+    public static class CpfHelper 
     {
         public static bool IsValid(string cpf)
         {

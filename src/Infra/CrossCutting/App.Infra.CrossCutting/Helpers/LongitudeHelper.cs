@@ -2,7 +2,7 @@
 
 namespace App.Infra.CrossCutting.Helpers
 {
-    public class LongitudeHelper: IHelper<LongitudeHelper>
+    public static class LongitudeHelper
     {
     }
 }
