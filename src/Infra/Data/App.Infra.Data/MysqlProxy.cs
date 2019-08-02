@@ -1,21 +1,14 @@
-﻿using App.Domain.Entities;
-using App.Domain.Interfaces;
-using App.Bootstrap;
+﻿using App.Bootstrap;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace App.Infra.Data
 {
-    public class MysqlContext: DbContext, ISingleton<MysqlContext>
+    public class MysqlProxy : DbContext
     {
-        readonly IConfiguration _configuration;
+        readonly IConfiguration _configuration = Ioc.Get<IConfiguration>();
 
-        public DbSet<User> User { get; set; }
-
-        public MysqlContext(IConfiguration configuration) : base()
-        {
-            _configuration = configuration;
-        }
+        public MysqlProxy() : base() { }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
