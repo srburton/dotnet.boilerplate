@@ -66,3 +66,5 @@ src/Infra/Integration/App\.Infra\.Integration\.RabbitMq/obj/
 src/Infra/Integration/App\.Infra\.Integration\.RabbitMq/bin/
 
 src/Infra/Implementations/App\.Infra\.Implementation\.Geolocation/obj/
+
+src/Infra/Implementations/App\.Infra\.Implementation\.Geolocation/bin/

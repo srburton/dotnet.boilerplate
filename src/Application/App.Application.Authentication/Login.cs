@@ -4,6 +4,7 @@ using App.Application.Authentication.Repositories;
 using App.Application.Authentication.Uploads;
 using App.Bootstrap;
 using App.Domain.Entities;
+using App.Infra.Implementation.GeoLocation;
 using App.Infra.Integration.Aws;
 using Microsoft.AspNetCore.Http;
 
@@ -32,6 +33,13 @@ namespace App.Application.Authentication
 
         public User Profile()
         {
+            var distance = GeoLocation.FromDegrees(23.5489, -46.6388)
+                                         .DistanceTo(GeoLocation.FromDegrees(-21.1767, -47.8208));
+
+            var delemiter = GeoLocation.FromDegrees(23.5489, -46.6388)
+                                       .BoundingCoordinates(distance);
+
+
             return _repository.Find();
         }
     }

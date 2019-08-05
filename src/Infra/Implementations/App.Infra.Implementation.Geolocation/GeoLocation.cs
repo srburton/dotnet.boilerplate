@@ -123,7 +123,36 @@ namespace App.Infra.Implementation.GeoLocation
                     Math.Cos(_radLat) * Math.Cos(location._radLat) *
                     Math.Cos(_radLon - location._radLon)) * EARTH_RADIUS;
         }
-
+       
+        /// <summary>
+        /// Computes the bounding coordinates of all points on the surface
+        /// of a sphere that have a great circle distance to the point represented
+        /// by this GeoLocation instance that is less or equal to the distance
+        /// argument.
+        /// For more information about the formulae used in this method visit
+        /// http://JanMatuschek.de/LatitudeLongitudeBoundingCoordinates
+        /// </summary>
+        /// <param name="distance">The distance from the point represented by this 
+        /// GeoLocation instance. Must me measured in the same unit as the radius argument.
+        /// </param>
+        /// <returns>An array of two GeoLocation objects such that:
+        /// 
+        /// a) The latitude of any point within the specified distance is greater
+        /// or equal to the latitude of the first array element and smaller or
+        /// equal to the latitude of the second array element.
+        /// If the longitude of the first array element is smaller or equal to
+        /// the longitude of the second element, then
+        /// the longitude of any point within the specified distance is greater
+        /// or equal to the longitude of the first array element and smaller or
+        /// equal to the longitude of the second array element.
+        /// 
+        /// b) If the longitude of the first array element is greater than the
+        /// longitude of the second element (this is the case if the 180th
+        /// meridian is within the distance), then
+        /// the longitude of any point within the specified distance is greater
+        /// or equal to the longitude of the first array element
+        /// or smaller or equal to the longitude of the second
+        /// array element.</returns>
         public GeoLocation[] BoundingCoordinates(double distance)
         {
             if (distance < 0d)
@@ -155,9 +184,9 @@ namespace App.Infra.Implementation.GeoLocation
             }
 
             return new GeoLocation[]
-            {
-                    FromRadians(minLat, minLon),
-                    FromRadians(maxLat, maxLon)
+            {               
+               FromRadians(minLat, minLon),
+               FromRadians(maxLat, maxLon)
             };
         }
 

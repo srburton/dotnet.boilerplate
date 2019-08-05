@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Domain\App.Domain\App.Domain.csproj" />
     <ProjectReference Include="..\..\Infra\Data\App.Infra.Data\App.Infra.Data.csproj" />
+    <ProjectReference Include="..\..\Infra\Implementations\App.Infra.Implementation.Geolocation\App.Infra.Implementation.GeoLocation.csproj" />
     <ProjectReference Include="..\..\Infra\Integration\App.Infra.Integration.Aws\App.Infra.Integration.Aws.csproj" />
     <ProjectReference Include="..\..\Infra\Integration\App.Infra.Integration.RabbitMq\App.Infra.Integration.RabbitMq.csproj" />
     <ProjectReference Include="..\..\Infra\Integration\App.Infra.Integration.Redis\App.Infra.Integration.Redis.csproj" />
