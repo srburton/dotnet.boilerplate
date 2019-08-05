@@ -33,13 +33,6 @@ namespace App.Application.Authentication
 
         public User Profile()
         {
-            var distance = GeoLocation.FromDegrees(23.5489, -46.6388)
-                                         .DistanceTo(GeoLocation.FromDegrees(-21.1767, -47.8208));
-
-            var delemiter = GeoLocation.FromDegrees(23.5489, -46.6388)
-                                       .BoundingCoordinates(distance);
-
-
             return _repository.Find();
         }
     }

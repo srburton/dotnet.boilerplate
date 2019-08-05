@@ -19,6 +19,16 @@ namespace App.Infra.Implementation.GeoLocation
      * 
      * This code was originally published at
      * https://github.com/anthonyvscode/LonelySharp/blob/master/LonelySharp/GeoLocation.cs    
+     * 
+     * @author Renato Burton
+     * @version 05 agosto 2019        
+     * 
+     * var distance = GeoLocation.FromDegrees(23.5489, -46.6388)
+     *                           .DistanceTo(GeoLocation.FromDegrees(-21.1767, -47.8208));
+     *
+     * var delemiter = GeoLocation.FromDegrees(23.5489, -46.6388)
+     *                            .BoundingCoordinates(distance);
+     *            
      */
     public class GeoLocation
     {
@@ -120,8 +130,8 @@ namespace App.Infra.Implementation.GeoLocation
         public double DistanceTo(GeoLocation location)
         {
             return Math.Acos(Math.Sin(_radLat) * Math.Sin(location._radLat) +
-                    Math.Cos(_radLat) * Math.Cos(location._radLat) *
-                    Math.Cos(_radLon - location._radLon)) * EARTH_RADIUS;
+                   Math.Cos(_radLat) * Math.Cos(location._radLat) *
+                   Math.Cos(_radLon - location._radLon)) * EARTH_RADIUS;
         }
        
         /// <summary>
@@ -167,8 +177,7 @@ namespace App.Infra.Implementation.GeoLocation
             double minLon, maxLon;
             if (minLat > MIN_LAT && maxLat < MAX_LAT)
             {
-                double deltaLon = Math.Asin(Math.Sin(radDist) /
-                    Math.Cos(_radLat));
+                double deltaLon = Math.Asin(Math.Sin(radDist) / Math.Cos(_radLat));
                 minLon = _radLon - deltaLon;
                 if (minLon < MIN_LON) minLon += 2d * Math.PI;
                 maxLon = _radLon + deltaLon;
