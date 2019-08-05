@@ -1,7 +1,5 @@
 
-[![License:DOTNET.BOILERPLATE](https://i.ibb.co/vLLxXWg/layers.png)]() 
-
-### DotNet Boilerplate 
+[![License:DOTNET.BOILERPLATE](https://i.ibb.co/PW9XzKN/dotnet-boilerplategitbanner.png)]() 
 This project is based on bringing together the best technology and methodology in the construction of the dotnet core system, always aiming for greater reliability for projects with short deadlines and quality is essential, along with low development costs.
 
 ###### Commercial Features
