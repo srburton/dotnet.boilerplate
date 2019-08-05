@@ -64,3 +64,5 @@ src/Infra/Integration/App\.Infra\.Integration\.Aws/bin/
 src/Infra/Integration/App\.Infra\.Integration\.RabbitMq/obj/
 
 src/Infra/Integration/App\.Infra\.Integration\.RabbitMq/bin/
+
+src/Infra/Implementations/App\.Infra\.Implementation\.Geolocation/obj/
