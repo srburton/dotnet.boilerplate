@@ -47,6 +47,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrap", "Bootstrap", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Bootstrap", "src\Bootstrap\App.Infra.Bootstrap\App.Bootstrap.csproj", "{F9E14462-2F52-4299-856C-C00758F0E0BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{395515D7-7555-4207-B04A-81AD5C6975C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Infra.Implementation.Geolocation", "src\Infra\Implementations\App.Infra.Implementation.Geolocation\App.Infra.Implementation.Geolocation.csproj", "{EB076B81-6F72-47A2-AC9C-E2C7990CD614}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,10 @@ Global
 		{F9E14462-2F52-4299-856C-C00758F0E0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9E14462-2F52-4299-856C-C00758F0E0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9E14462-2F52-4299-856C-C00758F0E0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB076B81-6F72-47A2-AC9C-E2C7990CD614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB076B81-6F72-47A2-AC9C-E2C7990CD614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB076B81-6F72-47A2-AC9C-E2C7990CD614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB076B81-6F72-47A2-AC9C-E2C7990CD614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,6 +134,8 @@ Global
 		{081D665F-21AE-47BB-B4F4-294996BA6834} = {FDC90C6B-FF0C-4253-BEB8-C2B0BB7E60EB}
 		{1CCAA34B-A2C6-475E-BAAC-A2A464B205B3} = {FDC90C6B-FF0C-4253-BEB8-C2B0BB7E60EB}
 		{F9E14462-2F52-4299-856C-C00758F0E0BF} = {36DF253C-335E-4CB4-8BE8-CEC6A520E216}
+		{395515D7-7555-4207-B04A-81AD5C6975C3} = {861E91BF-A159-4980-A0F9-3156D98E8D22}
+		{EB076B81-6F72-47A2-AC9C-E2C7990CD614} = {395515D7-7555-4207-B04A-81AD5C6975C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2FED6BE-CF09-45EB-9124-5E612191DB71}
